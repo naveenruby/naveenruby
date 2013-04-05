@@ -30,10 +30,12 @@ gem "devise", :git => "git://github.com/plataformatec/devise.git"
 
 gem 'omniauth'
 gem 'omniauth-facebook'
+group => :development do
 
-gem "capistrano", :group => :development
+gem "capistrano"
 
 
+end
 group :test do
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
