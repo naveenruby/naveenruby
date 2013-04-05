@@ -30,7 +30,7 @@ gem "devise", :git => "git://github.com/plataformatec/devise.git"
 
 gem 'omniauth'
 gem 'omniauth-facebook'
-group => :development do
+group  :development do
 
 gem "capistrano"
 
